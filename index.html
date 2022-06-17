@@ -32,11 +32,11 @@
       </select>
     </p>
     <p>
-      Card Number: * <input type="number" name="card_number" id="card_number" value="" required placeholder="1111-2222-3333">
+      Card Number: * <input type="number" minlenght="12" maxlenght="12" name="card_number" id="card_number" value="" required placeholder="1111-2222-3333">
     </p>
     <p>Expiry Date: * <input type="date" name="exp_date" value="" id="exp_date" required placeholder="dd/mm/yy"></p>
     <p>
-      CVV: * <input type="password" name="cvv" id="cvv" value="" required placeholder="123">
+      CVV: * <input type="password" minlenght="3" maxlenght="3" name="cvv" id="cvv" value="" required placeholder="123">
     </p>
     <input type="submit" value="Pay Now">
   </form>
